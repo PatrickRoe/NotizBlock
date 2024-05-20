@@ -1,0 +1,72 @@
+.app {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(205, 196, 196);
+  background-image: url("./assets/pictures/notizblock.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+}
+
+footer {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+}
+
+.note-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.note {
+  background-color: rgb(233, 230, 230);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 4px 4px 7px 4px gray;
+}
+
+form {
+  margin: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: lightgray;
+  box-shadow: 4px 4px 7px 4px gray;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
