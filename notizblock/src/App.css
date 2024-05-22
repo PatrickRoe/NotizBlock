@@ -2,14 +2,13 @@
   text-align: center;
   font-family: 'Arial', sans-serif;
   background-color: rgb(255, 255, 255);
-  background-image: url("./assets/pictures/notizblock.jpg");
+  background-image: url("./assets/pictures/kelly-sikkema-eBo-8_0i5ic-unsplash.jpg");
   background-position: center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   width: 100%;
-  
 }
 .app1 {
   margin-top: 76px;
@@ -18,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 header {
@@ -67,7 +65,6 @@ input {
   border: 1px solid #ccc;
   background-color: lightgray;
   box-shadow: 3px 3px 1px 1px gray;
-
 }
 
 button {
@@ -87,6 +84,6 @@ button:hover {
         width: 40%;
   }
 }
-@media  screen and (max-with:;){
-  
-}
+/* @media  screen and (max-with:;){
+
+} */
