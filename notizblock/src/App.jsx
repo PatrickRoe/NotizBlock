@@ -17,12 +17,17 @@ const App = () => {
     setNotes(newNotes);
   };
 
+  const updateNote = (index, updatedText) => {
+    const newNotes = notes.map((note, i) => (i === index ? updatedText : note));
+    setNotes(newNotes);
+  };
+
   return (
     <div className="app">
       <Header />
       <div className="app1">
         <NoteForm addNote={addNote} />
-        <NoteList notes={notes} deleteNote={deleteNote} />
+        <NoteList notes={notes} deleteNote={deleteNote} updateNote={updateNote} />
       </div>
       <Footer />
     </div>
