@@ -1,3 +1,4 @@
+import './App.css';
 import { useState } from 'react';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
@@ -19,8 +20,10 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <NoteForm addNote={addNote} />
-      <NoteList notes={notes} deleteNote={deleteNote} />
+      <div className="app1">
+        <NoteForm addNote={addNote} />
+        <NoteList notes={notes} deleteNote={deleteNote} />
+      </div>
       <Footer />
     </div>
   );
