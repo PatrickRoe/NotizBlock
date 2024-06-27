@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>Notizen App von Entwickler Studio PR</h1>
+      <h1>Notizen App</h1>
     </header>
   );
 };
